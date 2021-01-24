@@ -25,7 +25,7 @@ function saveToDos() {
 }
 
 function paintToDo(text) {
-    const li =document.createElement("li");
+    const li = document.createElement("li");
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length + 1;
